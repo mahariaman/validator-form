@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form action="" method="post" autocomplete="off">
+      <h1 class="heading-index">LOGIN TO YOUR ACCOUNT</h1>
+      <div class="username">
+        <label for="username">
+          <p>Username</p>
+        </label>
+        <input id="usrname" type="text">
+      </div>
+      <div class="password">
+        <label for="password">
+          <p>Password</p>
+        </label>
+        <input id="password" type="password">
+      </div>
+
+      <input type="submit" value="Login" onclick="validate()">
+    </form>
+    <br>
+    <a href="register.html">Don't have an account? Register here</a>
+    
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
