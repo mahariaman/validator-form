@@ -3,12 +3,12 @@ function validate() {
   let psw = document.getElementById("password").value;
 
   if (username === "" && psw === "") {
-    alert("di isi dulu cok")
+    alert("harap di isi dahulu")
   } else {
     if (username === "mahariaman" && psw === "123") {
-      alert("welcome to my channel");
+      alert("welcome to my website");
     } else {
-      alert("jancok");
+      alert("username atau password anda salah");
     }
   }
 }
